@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npx tsc --noEmit -p . 2>$null)",
+      "Read(//e/kidzone-restaurant-server/src/modules/kidzone/memberships/**)",
+      "Read(//e/kidzone-restaurant-server/src/**)",
+      "Read(//e/kidzone-restaurant-server/prisma/**)",
+      "Read(//e/kidzone-restaurant-server/**)"
+    ],
+    "additionalDirectories": [
+      "E:\\kidzone-restaurant-server\\src\\modules\\kidzone\\memberships",
+      "E:\\kidzone-restaurant-server\\src\\common\\http",
+      "E:\\kidzone-restaurant-server\\src\\common\\interceptors",
+      "E:\\kidzone-restaurant-server\\src\\modules\\kidzone\\sales",
+      "E:\\kidzone-restaurant-server\\src\\modules\\restaurant\\orders"
+    ]
+  }
+}
